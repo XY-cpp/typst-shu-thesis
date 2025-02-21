@@ -8,16 +8,16 @@
 ) = {
   set page(
     background: image("../assets/cover.png", width: 100%),
-    header: none
+    header: none,
   )
-  set par(first-line-indent: 2em,spacing: 0em,leading: 0em)
+  set par(first-line-indent: 2em, spacing: 0em, leading: 0em)
 
   align(
     center,
     text(font: ziti.songti, size: zihao.chuhao, weight: "medium")[
       #v(2.6em)
       本科毕业论文（设计）
-    ]
+    ],
   )
   align(
     center,
@@ -38,15 +38,15 @@
   )
 
   let info-value(zh) = uline(
-    25em, 
+    25em,
     text(
       zh,
       font: ziti.songti,
       size: 16pt,
-    )
+    ),
   )
 
-  let quote = table.cell(inset:(top:1em),text(stroke: 1pt)[:])
+  let quote = table.cell(inset: (top: 1em), text(stroke: 1pt)[:])
 
   table(
     align: (x, y) => (

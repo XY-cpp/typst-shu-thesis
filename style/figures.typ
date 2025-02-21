@@ -16,7 +16,7 @@
     numbering: if not appendix { "1.1" } else { "A1" },
   )
   show math.equation: i-figured.show-equation.with(
-    numbering: if not appendix { "1.1" } else { "A1" },
+    numbering: if not appendix { "(1.1)" } else { "(A1)" },
     level: if not appendix { 2 } else { 1 },
   )
   set math.equation(supplement: [公式])

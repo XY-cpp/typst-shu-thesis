@@ -6,7 +6,7 @@
   set enum(
     numbering: numbly("({1})"),
     indent: 2em,
-    full:true
+    full: true,
   )
   body
 }

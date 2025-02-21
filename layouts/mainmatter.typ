@@ -9,6 +9,11 @@
   counter(page).update(1)
   show: main-heading
   set text(font: ziti.songti, size: zihao.xiaosi)
-  set par(first-line-indent: 2em, leading: 23pt-1em, spacing: 23pt-1em,justify: true)
+  set par(
+    first-line-indent: 2em,
+    leading: 23pt - 1em,
+    spacing: 23pt - 1em,
+    justify: true,
+  )
   body
 }

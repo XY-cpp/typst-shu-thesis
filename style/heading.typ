@@ -5,7 +5,7 @@
   show heading.where(level: 1): set align(center)
   set heading(
     numbering: none,
-    supplement: none
+    supplement: none,
   )
   show heading.where(level: 1): it => {
     set text(
